@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+
+    <!-- --------     Font awasome Icons     ------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- --------     Favicons     ------- -->
+    <link
+      rel="apple-touch-icon"
+      sizes="any"
+      href="Favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Favicons/site.webmanifest" />
+
+    <!-- --------     Css file     ------- -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="quote-container" id="quote-container">
+      <!-- --------     Quote text     ------- -->
+
+      <div class="quote-text">
+        <i class="fas fa-quote-left"></i>
+        <span id="quote"></span>
+      </div>
+
+      <!-- Author -->
+      <div class="quote-author">
+        <span id="author"></span>
+      </div>
+
+      <!-- Buttons -->
+      <div class="button-container">
+        <button class="twitter-button" id="twitter" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button class="new-quote" id="new-quote">New Quote</button>
+      </div>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <!-- script -->
+    <script src="app.js"></script>
+  </body>
+</html>
